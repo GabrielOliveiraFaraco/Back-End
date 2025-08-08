@@ -10,5 +10,5 @@ double divisao = numero1 / numero2;
 
 Console.WriteLine("Soma:" + soma);
 Console.WriteLine($"Subtração: {subtracao}");
-Console.WriteLine(string.Format("Multiplicação: {0}"));
-Console.WriteLine(string.Format("Divisão: {divisao}"));
+Console.WriteLine(string.Format("Multiplicação: {0}", multiplicacao));
+Console.WriteLine(string.Format("Divisão: {0}", divisao));
